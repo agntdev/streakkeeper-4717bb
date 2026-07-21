@@ -1,0 +1,20 @@
+[
+  {
+    "name": "My habits",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Show all active and paused habits with status"
+            }
+          }
+        ],
+        "send": {
+          "callback": "habits:list"
+        }
+      }
+    ]
+  }
+]
